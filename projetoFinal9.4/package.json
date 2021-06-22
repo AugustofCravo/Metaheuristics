@@ -1,0 +1,43 @@
+{
+  "name": "projetoFinal",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "highlight.js": "^10.7.1",
+    "jquery": "^3.4.1",
+    "mathjs": "^8.1.1",
+    "meteor-node-stubs": "^1.0.1",
+    "meteor-npm": "^0.1.11",
+    "node-sass": "^5.0.0",
+    "plotly.js": "^1.58.4",
+    "popper.js": "^1.16.1",
+    "python-shell": "^2.0.3",
+    "sass-loader": "^10.1.1",
+    "vue": "^2.6.12",
+    "vue-directive-tooltip": "^1.6.3",
+    "vue-meta": "^2.4.0",
+    "vue-meteor-tracker": "^2.0.0-beta.5",
+    "vue-router": "^3.4.9",
+    "vue-spinner": "^1.0.4",
+    "vuejs-progress-bar": "^1.2.4",
+    "vuetify": "^1.5.18",
+    "vuex-map-fields": "^1.4.1",
+    "webpack": "^5.13.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
