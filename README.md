@@ -5,7 +5,7 @@ trabalho de TCC para graduação no curso de Ciência da Computação pela Unive
 Trata-se de uma ferramenta web para acesso dos algoritmos metaheurísticos 
 Particle Swarm Optimization e Semi-Autonomous-PSO.
 
-Foi utilizado no projetoa ferramenta Meteor e Vue.
+Foi utilizado no projeto as ferramentas Meteor e Vue.
 
 Abaixo segue a lista de packages necessários para sua execução.
 
